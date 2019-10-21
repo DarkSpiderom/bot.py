@@ -1,4 +1,4 @@
-
+import os
 import discord
 from discord.ext import commands
 
@@ -42,5 +42,5 @@ async def on_ready():
 
 
 
-
-bot.run('NjM1MDEzMTg2MDM0MzM1NzQ0.Xaq6xg.PZQEY2wfCx72S4BjRAvFMpuosI4' )
+	
+token = os.environ.get('BOT_TOKEN')
